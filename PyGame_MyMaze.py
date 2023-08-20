@@ -10,29 +10,29 @@ screen = pygame.display.set_mode((25*SQUARE_SIZE, 25*SQUARE_SIZE))
 
 # Title and Icon
 pygame.display.set_caption("The Dungeon")
-icon = pygame.image.load('maze_icon.png')
+icon = pygame.image.load('assets/maze_icon.png')
 pygame.display.set_icon(icon)
 
 
-coin_image = pygame.image.load("coin.png")
+coin_image = pygame.image.load("assets/coin.png")
 coin_image = pygame.transform.scale(coin_image, (SQUARE_SIZE, SQUARE_SIZE))
 
-horse_right = pygame.image.load("horse_right.png")
+horse_right = pygame.image.load("assets/horse_right.png")
 horse_right = pygame.transform.scale(horse_right, (SQUARE_SIZE, SQUARE_SIZE))
 
-horse_left = pygame.image.load("horse_left.png")
+horse_left = pygame.image.load("assets/horse_left.png")
 horse_left = pygame.transform.scale(horse_left, (SQUARE_SIZE, SQUARE_SIZE))
 
-enemy_image = pygame.image.load("pawn.png")
+enemy_image = pygame.image.load("assets/pawn.png")
 enemy_image = pygame.transform.scale(enemy_image, (SQUARE_SIZE, SQUARE_SIZE))
 
-wall_img = pygame.image.load("wall.png")
+wall_img = pygame.image.load("assets/wall.png")
 wall_img = pygame.transform.scale(wall_img, (SQUARE_SIZE, SQUARE_SIZE))
 
-end_screen = pygame.image.load("end_screen.png")
+end_screen = pygame.image.load("assets/end_screen.png")
 end_screen = pygame.transform.scale(end_screen, (25*SQUARE_SIZE, 25*SQUARE_SIZE))
 
-win_screen = pygame.image.load("win.png")
+win_screen = pygame.image.load("assets/win.png")
 win_screen = pygame.transform.scale(win_screen, (25*SQUARE_SIZE, 25*SQUARE_SIZE))
 
 # when something moves , we save the previous and new coordinates in this list ,
