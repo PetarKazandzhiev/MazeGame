@@ -43,7 +43,7 @@ end_screen.png
 win.png
 Run the game script with the command:
 
-# python <filename>.py# 
+# python <filename>.py
 
 # Credits:
 Developed as a university project by Petar Kazandzhiev.
